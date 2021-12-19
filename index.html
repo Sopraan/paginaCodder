@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./stylesheets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,68 +20,52 @@
 <!--Encabezado del sitio-->
 
 <body>
-    <nav class="navegar">
-        <a class="icono__nav" href="index.html" height="100"> <img src="./imagenes/icono-mate.png"
-                alt="mate boutique logo"></a>
-        <ul class="listas">
-            <li><a href="index.html"> Home</a></li>
-            <li class="linen"><a href="productos.html"> Productos</a>
-                <ul class="desplegable">
-                    <li><a href="./productos.html#yerbasNav">Yerbas</a></li>
-                    <li><a href="./productos.html#equiposNav">Equipos Materos</a></li>
-                    <li><a href="./productos.html#matesNav">Mates</a></li>
-                </ul>
-            </li>
-            <li><a href="ofertas.html"> Ofertas</a></li>
-            <li><a href="encontranos.html"> Encontranos</a></li>
-            <li><a href="nosotros.html"> Nosotros</a></li>
-            <li><a href="#contacto"> Contacto</a></li>
-        </ul>
-
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Menu
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="ofertas.html">Ofertas</a></li>
-                <li><a class="dropdown-item" href="encontranos.html">Encontranos</a></li>
-                <li><a class="dropdown-item" href="nosotros.html">Nosotros</a></li>
-                <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
-            </ul>
-        </div>
-    </nav>
-
-
-    <header class="cabeza">
-        <h1><strong> Mate Boutique</strong></h1>
-        <h2>Tienda especializada en productos a base de yerba y complementos de mate.</h2>
-    </header>
-
-    <main class="cuerpo">
-        <!--Contenido principal-->
-
-        <div id="carouselExampleControls" class="carousel slide carousel-home" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active carousel-home">
-                    <img src="./imagenes/mate-facha.jpg" class="d-block w-100" alt="Foto mate - Portada">
-                </div>
-                <div class="carousel-item carousel-home">
-                    <img src="./imagenes/tienda.jpg" class="d-block w-100" alt="Foto tienda">
-                </div>
-
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./imagenes/icono-mate.png"
+            alt="mate boutique logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="productos.html">Productos</a>
+              <a class="nav-link" href="ofertas.html">Ofertas</a>
+              <a class="nav-link" href="encontranos.html">Encontranos</a>
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
+              
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+          </div>
         </div>
+      </nav>
+
+
+    <main class="cuerpo-index">
+        <div class="text-center cuerpo-grande">
+            
+            <h1 class="titulo-hero">Mate Boutique</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Tienda especializada en productos a base de yerba y complementos de mate.</p>
+              
+            
+          <div class="container">
+            <div clas="row">
+              <div class="col-md-8 offset-md-2 d-grid gap-2 boton-hero">
+              <a
+                href="productos.html"
+                type="submit"
+                class="btn btn-secondary btn-lg hero"
+                >Explora nuestra gama de productos</a
+              >
+            </div>
+        </div> 
+    </div> 
+</div>
+         
+</div>
+
 
 
 
@@ -89,49 +73,107 @@
 
     </main>
 
-    <footer class="pie">
-        <!--Pie de pagina-->
-        <div id="contacto" class="contact">
-            <form class="contact__form" action="" method="POST">
+    <footer>
+        
+            <div class="container">
+            <div clas="row">
 
-                <h2 class="contact__form__title">Contactate con nosotros</h2>
+              <div class="col-md-8 offset-md-2">
+            
+            <form>
 
-                <fieldset class="fieldset__info">
-                    <legend class="fieldset__info__title"> Informacion de contacto</legend>
-                    <input class="fieldset__info__campo" type="text" placeholder="Nombre">
-                    <input class="fieldset__info__campo" type="text" placeholder="Apellido">
-                    <input class="fieldset__info__campo" type="email" placeholder="Email">
-                    <input class="fieldset__info__campo" type="text" placeholder="Telefono">
-                    <select name="tipo-cliente">
-                        <option value="particular">particular</option>
-                        <option value="empresa">empresa</option>
-                    </select>
-
-                </fieldset>
-                <fieldset class="fieldset__ayuda">
-                    <legend class="fieldset__ayuda__title">Contanos como podemos ayudarte</legend>
-                    <label class="fieldset__ayuda__campo"><input type="checkbox" name="Yerbas"
-                            value="1" />Yerbas</label>
-                    <label class="fieldset__ayuda__campo"><input type="checkbox" name="Equipo Matero"
-                            value="1" />Equipos Materos</label>
-                    <label class="fieldset__ayuda__campo"><input type="checkbox" name="Mates" value="1" />Mates</label>
-                    <label class="fieldset__ayuda__campo"><input type="checkbox" name="Otros"
-                            value="1" />Otros</label><br>
-                    <textarea type="text"></textarea>
-                </fieldset>
-                <button type="submit" class="contact__form__submit">Enviar</button>
-                <button type="reset" class="contact__form__delete">Borrar</button>
-            </form>
+            
+          <h2 class="contact__form__title">Contactate con nosotros</h2>
+          <div class="form-group row footer-form">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group row footer-form">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Apellido</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="Apellido">
+            </div>
+          </div>
+          
+            <div class="form-group row footer-form">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Nombre">
+              </div>
+            </div>
+  
+            <div class="form-group row footer-form">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Telefono</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="Telefono">
+              </div>
+            </div>
+          
+            <div class="form-group row footer-form">
+            <div class="col-sm-2" >Checkbox</div>
+            <div class="col-sm-10 box">
+              <div class="form-check custom-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Example checkbox
+                </label>
+                
+              </div>
+              <div class="form-check custom-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Example checkbox
+                </label>
+                
+              </div>
+              <div class="form-check custom-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Example checkbox
+                </label>
+                
+              </div>
+            </div>
+          </div>
+  
+          <legend class="footer-titulo">Contanos como podemos ayudarte</legend>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            </div>
+              
+            </div>
+          </div>
+  
+          <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10 ">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="reset" class="btn btn-primary">Borrar</button>
+            </div>
+          </div>
+          </form>
+         </div>
         </div>
+    </div>
+
+        
         <hr>
         <span><img src="./imagenes/icono-mate.png" alt="mate boutique logo" height="20">
-            2021 <b>mate boutique®</b> patente pendiente
-        </span>
-    </footer>
+        2021 <b>mate boutique®</b> patente pendiente 
+     </span>
+      </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 
 </body>
 
