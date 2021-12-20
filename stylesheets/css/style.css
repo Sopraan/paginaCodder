@@ -249,6 +249,15 @@ a:visited {
   
 }
 
+.sobre-nosotros{
+  padding-top: 10rem;
+    
+  
+}
+.sobre-nosotros p{
+  color: white;
+}
+
   
 
 /* @media (min-width: 1366px) {
