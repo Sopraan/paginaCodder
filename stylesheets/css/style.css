@@ -53,7 +53,7 @@ header.cabeza {
 
 footer {
   background-color: aliceblue;
-  padding: 1rem; }
+   }
 
 
 * {
@@ -208,7 +208,7 @@ a:visited {
   padding-right: 15px;
 }
 .footer-form{
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .shops{
     margin-top: 15px;
