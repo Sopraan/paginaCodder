@@ -5,28 +5,25 @@ header {
   height: 50px;
   vertical-align: middle; }
 
+nav img {
+  height: 20px; }
 
-  nav img {
-    height: 20px; }
-  
+.cabeza h1 {
+  color: azure;
+  margin: auto;
+  line-height: 120px;
+  font-size: 60px;
+  display: inline;
+  font-family: "Roboto";
+  font-weight: 700; }
 
-
-   
-  .cabeza h1 {
-    color: azure;
-    margin: auto;
-    line-height: 120px;
-    font-size: 60px;
-    display: inline;
-    font-family: "Roboto";
-    font-weight: 700; }
-  .cabeza h2 {
-    color: azure;
-    margin: auto;
-    font-size: 20px;
-    font-family: "Roboto";
-    font-weight: 400;
-    word-spacing: normal; }
+.cabeza h2 {
+  color: azure;
+  margin: auto;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 400;
+  word-spacing: normal; }
 
 header.cabeza {
   background-image: url("./../../imagenes/banner.png");
@@ -36,39 +33,27 @@ header.cabeza {
   vertical-align: middle; }
 
 .cuerpo {
-  
   grid-area: main; }
   .cuerpo p {
     text-align: center; }
 
-    .fw-bold {
-      color: azure;
-      padding-bottom: 50px;
-  }
-
- 
+.fw-bold {
+  color: azure;
+  padding-bottom: 50px; }
 
 footer {
-  background-color:rgb(243, 243, 243);
-   }
-
+  background-color: #f3f3f3; }
 
 * {
   margin: 0;
   padding: 0; }
 
-
-
 main {
-  background-image: url("./../../imagenes/Fondo.jpg");
-  
-}
-.info{
-  padding-top: 25px;
-  color: azure;
+  background-image: url("./../../imagenes/Fondo.jpg"); }
 
-}
-  
+.info {
+  padding-top: 25px;
+  color: azure; }
 
 .pag__secundario {
   padding-top: 60px;
@@ -91,103 +76,75 @@ main {
     vertical-align: middle;
     float: right; }
 
-
-
-
-
 .icono__nav img {
   padding: 0%;
   margin: 0%;
   background-color: azure; }
-
 
 .maps {
   display: flex;
   width: 100%;
   justify-content: center; }
 
-
 a:visited {
-  color: black }
+  color: black; }
 
+.barra {
+  color: azure; }
 
-.barra{
-  color: azure;
-}
-.separador{
-  color: azure;
-}
+.separador {
+  color: azure; }
 
-.box{
+.box {
   display: flex;
-  flex-wrap: wrap;
-  
-}
-.custom-check{
-  padding-right: 15px;
-}
-.footer-form{
-  margin-bottom: 0.5rem;
-}
-.shops{
-    margin-top: 15px;
+  flex-wrap: wrap; }
 
-}
-.shopping{
+.custom-check {
+  padding-right: 15px; }
+
+.footer-form {
+  margin-bottom: 0.5rem; }
+
+.shops {
+  margin-top: 15px; }
+
+.shopping {
   padding-top: 50px;
-  padding-bottom: 50px;
-}
+  padding-bottom: 50px; }
 
-.cuerpo-grande{
+.cuerpo-grande {
+  height: 800px; }
 
-  height: 800px;
-}
-
-.titulo-hero{
+.titulo-hero {
   padding-top: 10rem;
   font-size: 80px;
-  color:white
-}
+  color: white; }
 
-.mapa-local{
-  padding-top: 2rem;
-}
+.mapa-local {
+  padding-top: 2rem; }
 
-.hero{
-  color: white!important;
-}
-.boton-hero{
-  margin-top: 120px;
-  
-}
+.hero {
+  color: white !important; }
 
-.sobre-nosotros{
+.boton-hero {
+  margin-top: 120px; }
+
+.sobre-nosotros {
   padding-top: 6rem;
-  color: white; 
-}
+  color: white; }
+  .sobre-nosotros h2 {
+    padding-bottom: 3rem; }
+  .sobre-nosotros h4 {
+    padding-bottom: 1.5rem; }
+  .sobre-nosotros p {
+    color: white; }
 
-.sobre-nosotros h2{
-  padding-bottom: 3rem;
-}
-.sobre-nosotros h4{
-  padding-bottom: 1.5rem;
-}
-.sobre-nosotros p{
-  color: white;
-}
+.footer-hr {
+  margin: 2px !important; }
 
-
-.footer-hr{
-  margin:2px !important;
-}
-
-.contact-b{
+.contact-b {
   color: grey;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
-
-.info-tienda{
-  color: white;
-}
-
+.info-tienda {
+  color: white; }

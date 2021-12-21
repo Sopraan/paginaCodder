@@ -5,7 +5,7 @@
   "main": "sass",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-mate-boutique --include-path scss stylesheets/scss/style.scss stylesheets/css/style.css",
+    "build-css": "node-sass --include-path scss stylesheets/scss/style.scss stylesheets/css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
