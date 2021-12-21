@@ -69,9 +69,9 @@ main {
 .info{
   padding-top: 25px;
   color: azure;
+
 }
-  main h4 {
-    text-decoration: underline; }
+  
 
 .navegar {
   grid-area: nav; }
@@ -185,11 +185,8 @@ section {
 a:visited {
   color: black }
 
-.carousel-home {
-  max-width: 100%; }
 
-.dropdown {
-  display: none; }
+
 
 .barra{
   color: azure;
@@ -201,6 +198,7 @@ a:visited {
 
 .box{
   display: flex;
+  flex-wrap: wrap;
   
   
 }
@@ -248,9 +246,16 @@ a:visited {
 }
 
 .sobre-nosotros{
-  padding-top: 10rem;
-    
+  padding-top: 6rem;
+  color: white;
   
+}
+
+.sobre-nosotros h2{
+  padding-bottom: 3rem;
+}
+.sobre-nosotros h4{
+  padding-bottom: 1.5rem;
 }
 .sobre-nosotros p{
   color: white;
@@ -260,7 +265,12 @@ a:visited {
   margin:2px !important;
 }
 
-  
+.contact-b{
+  color: grey;
+  text-decoration: underline;
+}
+
+
 
 /* @media (min-width: 1366px) {
   body {
